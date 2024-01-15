@@ -38,25 +38,8 @@ Password: password
 
 Then, create a new database called ‘weather’, and import the db.sql file, click ‘execute’, and you should have two tables, one for users and one for weather
 
-## first: test1
-
-This is s test.
-
-&lt;details>
-
-        &lt;summary>click&lt;/summary>
-
-                fdshajk
-
-&lt;/details>
-
-&lt;a id="xxx">&lt;/a>
-
-~                     
-
-## Rest apis
-
-&lt;details>
+## Rest apis:
+<details>
 
 
 
@@ -66,13 +49,13 @@ This is s test.
 * I have added OAS (open api spec) support to the api, the official contract can be viewed here: [https://jtabb1213.github.io/weather/#/](https://jtabb1213.github.io/weather/#/)
 * I have a variety of providers set up to get information from, including a google map api, two real time weather apis, and a personal database. 
 
-&lt;/details>
+</details>
 
-&lt;a id=”RestAPI”>&lt;/a>
+<a id=”RestAPI”></a>
 
 ## User authentication and shared caching:
 
-&lt;details>
+<details>
 
 
 
@@ -82,13 +65,13 @@ This is s test.
 * I have also a create account endpoint, which will add user information to the database.
 * Additionally, I have added shared caching, which stores the user session in a redis store. Now, if I wish to scale up my web application, users will not have any authentication issues when switching between instances of my app.
 
-&lt;/details>
+</details>
 
-&lt;a id=”UserA”>&lt;/a>
+<a id=”UserA”></a>
 
 ## Databases:
 
-&lt;details>
+<details>
 
 
 
@@ -97,13 +80,13 @@ This is s test.
 * I can update the weather table by using postman to issue api calls to an endpoint in my api.
 * I use the ORM library sequelize to interact with the database, and I have created models for the city and the user. 
 
-&lt;/details>
+</details>
 
-&lt;a id=”db”>&lt;/a>
+<a id=”db”></a>
 
 ## Good organization:
 
-&lt;details>
+<details>
 
 
 
@@ -112,6 +95,6 @@ This is s test.
 * This makes it very easy to switch or add providers for the information, all you have to do is specify it in the ‘config’ file. 
 * I also followed this principle to help me build a good front end. I have different components spread across multiple files, and I combine them to build a good web page. 
 
-&lt;/details>
+</details>
 
-&lt;a id=”designs”>&lt;/a>
+<a id=”designs”></a>
