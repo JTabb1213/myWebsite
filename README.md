@@ -51,7 +51,7 @@ Then, create a new database called ‘weather’, and import the db.sql file, cl
 
 </details>
 
-<a id=”RestAPI”></a>
+<a id="RestAPI"></a>
 
 ## User authentication and shared caching:
 
@@ -67,7 +67,7 @@ Then, create a new database called ‘weather’, and import the db.sql file, cl
 
 </details>
 
-<a id=”UserA”></a>
+<a id="UserA"></a> 
 
 ## Databases:
 
@@ -82,7 +82,7 @@ Then, create a new database called ‘weather’, and import the db.sql file, cl
 
 </details>
 
-<a id=”db”></a>
+<a id="db"></a>
 
 ## Good organization:
 
@@ -97,4 +97,4 @@ Then, create a new database called ‘weather’, and import the db.sql file, cl
 
 </details>
 
-<a id=”designs”></a>
+<a id="designs"></a>
