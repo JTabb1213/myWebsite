@@ -1,17 +1,21 @@
 ## Project Description
-This project was created to learn and apply industry standard software engineering concepts, technology, and design. I did this by building a website using react.js and node/express that displays city information. To build this website I used:
+This project was created to learn and apply industry standard software engineering concepts, technology, and design. I did this by building a website using react.js and node/express js that displays city information, [click here to go the website](https://jacktabb.net/). To build this website I used:
 
-[Rest Apis](#RestAPI)
+[Rest Apis, click here to see more](#RestAPI)
 * My backend is built as a rest api. I did this to make clients such as the front end web pages easily retrieve, modify, or delete data from various resources.
 
-[User authentication and shared caching](#UserA)
+[User authentication and shared caching, click here to see more](#UserA)
 * I have user authentication for this website, so if a user wants to gain access to the protected parts of this website, they must either create an account or give a valid username and password 
 
- [Databases](#db)
+ [Databases, click here to see more](#db)
 * I use a postgreSQL database to store user information as well as be a source of weather info. 
 
- [Good design practice](#design)
-* Through building this website, I realized just how important it is to follow good design practice to make the final  product run smoothly and to aid the development process. 
+
+
+ [Good design practice, click here to see more](#design)
+* Through building this website, I realized how important it is to follow good design practice to make the final  product run smoothly and to aid the development process. 
+
+[]
 
 
 ## Rest apis:
@@ -20,9 +24,9 @@ This project was created to learn and apply industry standard software engineeri
 
 
 * My backend is built as a rest api, using node.js and express.js. This involved creating various endpoints to handle different types of requests.
-* I have done this to provide a standardized interface for clients such as my frontend to use http requests to communicate with components in my backend. 
-* I have implemented 5 http methods: get, put, post, delete, and patch. Each endpoint, when called upon, will handle the request accordingly, performing operations such as updating a database with user/weather information, or getting real time weather information. 
-* I have added OAS (open api spec) support to the api, the official contract can be viewed here: [https://jtabb1213.github.io/weather/#/](https://jtabb1213.github.io/weather/#/)
+* I have done this to provide a way for clients such as my frontend to use http requests to communicate with components in my backend. 
+* I have implemented 5 http methods: get, put, post, delete, and patch. Each endpoint, when called upon, will handle the request accordingly, performing operations such as updating a database with user/weather information, or getting static google map of a city. 
+* I have added OAS (open api spec) support to the api, the official contract can be viewed [here](https://jtabb1213.github.io/weather/#/)
 * I have a variety of providers set up to get information from, including a google map api, two real time weather apis, and a personal database. 
 
 </details>
@@ -32,12 +36,11 @@ This project was created to learn and apply industry standard software engineeri
 ## User authentication and shared caching:
 
 <details>
-
-
+	<summary>Click here to see more about user authentication and shared caching</summary>
 
 * I use a postgre SQL database to store user information. 
-* The reason I added this feature was purely for practice with user authentication.
-* When the user attempts to login, an http request is sent to the database to confirm that the user is found, which if successful, will make a 10 minute session for the user. This allows the user to access the protected endpoints of the website
+* The reason I added this feature was for practice with user authentication.
+* When the user attempts to login, a request is sent to the database to confirm that the user is found, which if successful, will make a 10 minute session for the user. This allows the user to access the protected endpoints of the website
 * I have also a create account endpoint, which will add user information to the database.
 * Additionally, I have added shared caching, which stores the user session in a redis store. Now, if I wish to scale up my web application, users will not have any authentication issues when switching between instances of my app.
 
@@ -48,7 +51,7 @@ This project was created to learn and apply industry standard software engineeri
 ## Databases:
 
 <details>
-
+	<summary>Click here to see more about databases</summary>
 
 
 * As mentioned earlier, I have implemented a postgre sql database in this application.
@@ -63,7 +66,7 @@ This project was created to learn and apply industry standard software engineeri
 ## Good organization:
 
 <details>
-
+	<summary>Click here to see more about organization</summary>
 
 
 * One organization concept I tried my best to follow is the single responsibility principle.
