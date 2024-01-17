@@ -1,5 +1,5 @@
 ## Project Description
-This project was created to learn and apply industry standard software engineering concepts, technology, and design. I did this by building a website using react.js and node/express js that displays city information, [click here to go the website](https://jacktabb.net/). To build this website I used:
+This project was created to learn and apply industry standard software engineering concepts, technology, and design. I did this by building a [website](https://jacktabb.net/) using react.js and node/express js that displays city information. To build this website I used:
 
 [Rest Apis, click here to see more](#RestAPI)
 * My backend is built as a rest api. I did this to make clients such as the front end web pages easily retrieve, modify, or delete data from various resources.
@@ -10,17 +10,20 @@ This project was created to learn and apply industry standard software engineeri
  [Databases, click here to see more](#db)
 * I use a postgreSQL database to store user information as well as be a source of weather info. 
 
-
+[Cloud deployment](#cld)
+* This website is hosted on google cloud platform.
 
  [Good design practice, click here to see more](#design)
 * Through building this website, I realized how important it is to follow good design practice to make the final  product run smoothly and to aid the development process. 
 
-[]
+
 
 
 ## Rest apis:
 <details>
 	<summary>Click here to see more about rest api</summary>
+
+* 
 
 
 * My backend is built as a rest api, using node.js and express.js. This involved creating various endpoints to handle different types of requests.
@@ -38,8 +41,7 @@ This project was created to learn and apply industry standard software engineeri
 <details>
 	<summary>Click here to see more about user authentication and shared caching</summary>
 
-* I use a postgre SQL database to store user information. 
-* The reason I added this feature was for practice with user authentication.
+* I added user authentication to the website so that users must have a valid username and password to use the protected part of this website, which I store in a postgreSQL database
 * When the user attempts to login, a request is sent to the database to confirm that the user is found, which if successful, will make a 10 minute session for the user. This allows the user to access the protected endpoints of the website
 * I have also a create account endpoint, which will add user information to the database.
 * Additionally, I have added shared caching, which stores the user session in a redis store. Now, if I wish to scale up my web application, users will not have any authentication issues when switching between instances of my app.
@@ -55,13 +57,22 @@ This project was created to learn and apply industry standard software engineeri
 
 
 * As mentioned earlier, I have implemented a postgre sql database in this application.
-* The reason I did this was to store user and weather information, which I do so in two different tables. 
-* I can update the weather table by using postman to issue api calls to an endpoint in my api.
+* I did this to store user and weather information. To update this,  as endpoints in my backend that when called upon, will delete, update, patch, post, or get information in the database. 
+* I can update the weather table by using postman to issue api calls to one of these endpoints.
 * I use the ORM library sequelize to interact with the database, and I have created models for the city and the user. 
 
 </details>
 
 <a id="db"></a>
+
+## Cloud deployment:
+
+<details>
+	<summary>Click here to see more about google cloud deployment</summary>
+
+*
+
+</details>
 
 ## Good organization:
 
