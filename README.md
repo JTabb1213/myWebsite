@@ -1,5 +1,6 @@
 ## Project Description
 This project was created to learn and apply industry standard software engineering concepts, technology, and design. I did this by building a website using react.js and node/express that displays city information. To build this website I used:
+
 [Rest Apis](#RestAPI)
 * My backend is built as a rest api. I did this to make clients such as the front end web pages easily retrieve, modify, or delete data from various resources.
 
