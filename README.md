@@ -1,6 +1,16 @@
 ## Project Description
+This project was created to learn and apply industry standard software engineering concepts, technology, and design. I did this by building a website using react.js and node/express that displays city information. To build this website I used:
+[Rest Apis](#RestAPI)
+* My backend is built as a rest api. I did this to make clients such as the front end web pages easily retrieve, modify, or delete data from various resources.
+ [User authentication and shared caching](#UserA)
+* I have user authentication for this website, so if a user wants to gain access to the protected parts of this website, they must either create an account or give a valid username and password 
 
-This project was created to learn and apply industry standard software engineering concepts, technology, and design. I did this by building a website using react.js and node/express that displays city information. By building this website, I gained a better understanding of [Rest Apis](#RestAPI), [User authentication](#UserA), [Databases](#db), [and good design practice](#design)
+ [Databases](#db)
+* I use a postgreSQL database to store user information as well as be a source of weather info. 
+
+ [Good design practice](#design)
+* Through building this website, I realized just how important it is to follow good design practice to make the final  product run smoothly and to aid the development process. 
+
 
  
 
