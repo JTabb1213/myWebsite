@@ -52,7 +52,7 @@ Then, create a new database called ‘weather’, and import the db.sql file, cl
 
 ## Rest apis:
 <details>
-
+	<summary>Click here to see more about rest api</summary>
 
 
 * My backend is built as a rest api, using node.js and express.js. This involved creating various endpoints to handle different types of requests.
