@@ -1,8 +1,20 @@
 ## Project Description
-This project was created to learn and apply industry standard software engineering concepts, technology, and design. I did this by building a website using react.js and node/express that displays city information. Below are the concepts that I used:
+This project was created to learn and apply industry standard software engineering concepts, technology, and design. I did this by building a website using react.js and node/express that displays city information. To build this website I used:
 
-## Rest Apis
+[Rest Apis](#RestAPI)
 * My backend is built as a rest api. I did this to make clients such as the front end web pages easily retrieve, modify, or delete data from various resources.
+
+[User authentication and shared caching](#UserA)
+* I have user authentication for this website, so if a user wants to gain access to the protected parts of this website, they must either create an account or give a valid username and password 
+
+ [Databases](#db)
+* I use a postgreSQL database to store user information as well as be a source of weather info. 
+
+ [Good design practice](#design)
+* Through building this website, I realized just how important it is to follow good design practice to make the final  product run smoothly and to aid the development process. 
+
+
+## Rest apis:
 <details>
 	<summary>Click here to see more about rest api</summary>
 
@@ -15,11 +27,12 @@ This project was created to learn and apply industry standard software engineeri
 
 </details>
 
-## User authentication and shared caching
-* I have user authentication for this website, so if a user wants to gain access to the protected parts of this website, they must either create an account or give a valid username and password
+<a id="RestAPI"></a>
+
+## User authentication and shared caching:
 
 <details>
-	<summary>Click here to see more about user authentication and shared caching</summary>
+
 
 
 * I use a postgre SQL database to store user information. 
@@ -30,11 +43,12 @@ This project was created to learn and apply industry standard software engineeri
 
 </details>
 
-## Databases
-* I use a postgreSQL database to store user information as well as be a source of weather info. 
+<a id="UserA"></a> 
+
+## Databases:
 
 <details>
-	<summary>Click here to see more about databases</summary>
+
 
 
 * As mentioned earlier, I have implemented a postgre sql database in this application.
@@ -44,11 +58,12 @@ This project was created to learn and apply industry standard software engineeri
 
 </details>
 
-## Good design practice
-* Through building this website, I realized just how important it is to follow good design practice to make the final  product run smoothly and to aid the development process. 
+<a id="db"></a>
+
+## Good organization:
 
 <details>
-	<summary>Click here to see more about design</summary>
+
 
 
 * One organization concept I tried my best to follow is the single responsibility principle.
@@ -58,3 +73,4 @@ This project was created to learn and apply industry standard software engineeri
 
 </details>
 
+<a id="designs"></a>
