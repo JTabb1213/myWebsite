@@ -28,7 +28,7 @@ This project was created to learn and apply industry standard software engineeri
 
 * This structure allows developers working on the website to easily swich providers for client information. All that has to be done is specify what provider you want in the config file.
 * I have also followed this same structure with the user authentication part of my website, more on that below.
-* To add a level of proffessionalism to my api, I have added OAS (open api spec) support, the official contract can be viewed [here](https://jtabb1213.github.io/weather/#/). This shows what each endpoint in the api does, what type of crud operation it performs, and the request and response formats.
+* To add a level of proffessionalism to my api, I have added OAS (open api spec) support, the official contract can be viewed [here](https://jtabb1213.github.io/weather/#/). This shows what each endpoint in the api does, what type of method it performs, and the request and response formats.
 
 
 </details>
@@ -84,18 +84,3 @@ This project was created to learn and apply industry standard software engineeri
 ![Model of cloud deployment:](./image1.png)
 
 </details>
-
-## Good organization:
-
-<details>
-	<summary>Click here to see more about organization</summary>
-
-
-* One organization concept I tried my best to follow is the single responsibility principle.
-* I have designed my backend so that each module is responsible for one thing.
-* This makes it very easy to switch or add providers for the information, all you have to do is specify it in the ‘config’ file. 
-* I also followed this principle to help me build a good front end. I have different components spread across multiple files, and I combine them to build a good web page. 
-
-</details>
-
-<a id="designs"></a>
