@@ -10,7 +10,7 @@ This project was created to learn and apply industry standard software engineeri
 
 * [Cloud deployment](#cld). This website is hosted on google cloud platform.
 
-* [Software design patterns](#sft). These included using the delegation pattern and the single responsibility principle.
+* [Software design patterns](#sft). This project helped me understand how following a good design pattern is important.
 
 
 ## Rest apis:
@@ -19,15 +19,13 @@ This project was created to learn and apply industry standard software engineeri
 
 
 * My backend is built as a rest api, using node.js and express.js. This involved creating various endpoints to handle different types of requests.
-* I have done this to provide a way for clients such as my frontend to use http methods to communicate with components in my backend. 
+* This allowed me to have a backend that acts independent of my frontend website, or any other clients that use the backend. Nothing in any client code will have any effect on my backend. My backend is simply a service that clients can use to retrieve or update information.
+* Rest apis are also very easy for clients to use. All any client has to do is send the http method, as well as any parameters if needed, to the endpoint they want, and the rest api will do the rest.
+
+![simple diagram of backend logic](restapi.png)
+
 * I have implemented 5 http methods: get, put, post, delete, and patch. Each endpoint, when called upon, will handle the request accordingly, performing operations such as updating a database with weather information, or a getting static google map of a city.
-* Below is a flowchart of my logic. I have organized the backend to efficiently handle these requests.
-
-![depiction of logic in backend](image2.png)
-
-* This structure allows developers working on the website to easily swich providers for client information. All that has to be done is specify what provider you want in the config file.
-* I have also followed this same structure with the user authentication part of my website, more on that below.
-* To add a level of proffessionalism to my api, I have added OAS (open api spec) support, the official contract can be viewed [here](https://jtabb1213.github.io/weather/#/). This shows what each endpoint in the api does, what type of method it performs, and the request and response formats.
+* To add more orgainization to my api, I have added OAS (open api spec) support, the official contract can be viewed [here](https://jtabb1213.github.io/weather/#/). With this addition, people that are either working on this project or using the backend can clearly tell what each endpoint in the api does, what type of method it performs, and the request and response formats.
 
 
 </details>
@@ -91,6 +89,6 @@ This project was created to learn and apply industry standard software engineeri
 <details>
 	<summany>Software Design</summary>
 
-* While building this website, it taught me how important it was to follow good design organization and patterns to make the ease the development process and make the application run smoothly.
-* 
+* While building this website, it taught me how important it was to follow good design organization and patterns to ease the development process.
+* One design pattern that I followed was the single responsibility principle. This meant separating each module so that each one performs only one specific task. This helped me g
 </details>
